@@ -1,5 +1,5 @@
-import logo from './logo.svg';
 import Header from './Header';
+import ModuleList from './ModuleList';
 import './App.css';
 
 function App() {
@@ -33,6 +33,7 @@ function App() {
   return (
     <div className="App">
       <Header />
+      <ModuleList modules={modules} />
     </div>
   );
 }
